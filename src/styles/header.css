@@ -1,7 +1,7 @@
 .ig-header-wrapper {
     display: flex;
     justify-content: space-between;
-    width: 1400px;
+    /* width: 1400px; */
     margin: 0 auto;
     align-items: center;
     padding: 25px 0;

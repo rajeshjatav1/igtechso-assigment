@@ -18,12 +18,13 @@ body {
   --font85: 85px;
   --font72: 72px;
   --font36: 36px;
-  --font48:48px;
+  --font48: 48px;
   --font18: 18px;
   --font16: 16px;
   --font14: 14px;
   --font12: 12px;
   --font10: 10px;
+  --heroSectionImageHeight: 680px;
   --heroSectionImgBorder: #FFDC6B;
   --watchSectionColor: #343D48;
   --menuElementTxt: #02073E;
@@ -44,4 +45,35 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+@media screen and (max-width: 1650px) {
+  .content-width {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  :root {
+    --font85: 75px;
+    --font72: 65px;
+    --font36: 36px;
+    --font48: 48px;
+    --font18: 18px;
+    --font16: 16px;
+    --font14: 14px;
+    --font12: 12px;
+    --font10: 10px;
+    --heroSectionImageHeight: 600px;
+  }
+
+  .content-width {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .ig-feature-image img {
+    width: 90%
+  }
 }

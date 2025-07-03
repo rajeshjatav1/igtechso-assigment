@@ -106,7 +106,7 @@
 
 .ig-bg-border {
     border: 2px solid var(--heroSectionImgBorder);
-    height: 680px;
+    height: var(--heroSectionImageHeight);
     z-index: 1;
     position: absolute;
     top: 30px;
@@ -116,7 +116,7 @@
 }
 
 .ig-bg-video img {
-    height: 680px;
+    height: var(--heroSectionImageHeight);
     z-index: 2;
     position: relative;
     border-radius: 5px;
