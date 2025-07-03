@@ -8,6 +8,27 @@
     z-index: 0;
 }
 
+.ig-bg-video {
+    position: relative;
+}
+
+.ig-play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    opacity: 0.9;
+    padding: 1rem;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff9e;
+}
+
 .ig-hero-section-headings {
     width: 60%;
     padding: 0px 0rem;
@@ -42,7 +63,7 @@
     margin-top: 30px;
 }
 
-.ig-hero-section-search-container{
+.ig-hero-section-search-container {
     position: relative;
 }
 
@@ -77,7 +98,7 @@
     position: relative;
 }
 
-.ig-bg-pattern img{
+.ig-bg-pattern img {
     position: absolute;
     right: -73px;
     top: -35px;

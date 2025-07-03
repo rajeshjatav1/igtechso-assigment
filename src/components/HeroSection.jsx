@@ -1,5 +1,6 @@
 import React from "react";
 import SearchIcon from "./icons/SearchIcon";
+import PlayIcon from "./icons/PlayIcon";
 
 const HeroSection = () => {
   return (
@@ -40,6 +41,9 @@ const HeroSection = () => {
         <div className="ig-bg-border"></div>
         <div className="ig-bg-video">
           <img src="shutterstock.png" alt="video-bg" />
+          <span className="ig-play-icon">
+            <PlayIcon/>
+          </span>
         </div>
       </div>
     </section>
