@@ -1,0 +1,128 @@
+.ig-features-section-wrapper {
+    margin-top: 110px;
+    text-align: center;
+}
+
+.ig-feature-videos-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ig-feature-txt {
+    font-weight: 700;
+    font-size: var(--font14);
+    line-height: 40px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: var(--tryForFreeTxt);
+}
+
+.ig-feature-heading {
+    font-weight: 700;
+    font-size: var(--font36);
+    line-height: 55px;
+    letter-spacing: -1.5px;
+}
+
+.ig-feature-box {
+    width: 33%;
+    border: 1px solid #F3F4F5;
+}
+
+.ig-feature-description {
+    padding: 15px 30px;
+}
+
+.ig-feature-rating-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.ig-feature-item-heading h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.ig-watched-count {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: var(--watchSectionColor);
+}
+
+.ig-core-features-section-wrapper {
+    margin-top: 170px;
+}
+
+.ig-core-features-section{
+    display: flex;
+    gap: 75px;
+    justify-content: center;
+    align-items:center;
+}
+
+.ig-core-feature-tiles {
+    display: flex;
+    gap: 45px;
+}
+
+.ig-tile-one-container {
+    gap: 45px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+
+.ig-tile-two-container {
+    gap: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ig-tile {
+    width: 300px;
+    height: 320px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.ig-tile h3 {
+    font-weight: 700;
+    font-size: var(--font72);
+    line-height: 55px;
+    letter-spacing: -1.5px;
+    text-align: center;
+}
+
+.ig-tile-desc {
+    font-weight: 400;
+    font-size: var(--font18);
+    line-height: 25px;
+    letter-spacing: -0.5px;
+    color: #0F2137;
+}
+
+.ig-core-feature-desc-container{
+    width: 35%;
+}
+
+.ig-core-feature-desc-container .ig-feature-desc{
+    margin-top: 40px;
+    font-size: var(--font18);
+}
+
+.ig-core-feature-desc-container .ig-header-free-txt{
+    display: inline-block;
+    margin-top: 30px;
+}

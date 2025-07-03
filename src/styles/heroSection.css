@@ -1,0 +1,101 @@
+.ig-hero-section-wrapper {
+    /* position: absolute; */
+    /* width: 1234px; */
+    display: flex;
+    top: 0;
+    left: 0;
+    padding-top: 78px;
+    z-index: 0;
+}
+
+.ig-hero-section-headings {
+    width: 60%;
+    padding: 0px 0rem;
+    padding-right: 13rem;
+}
+
+.ig-rating-section {
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}
+
+.ig-rating-section img {
+    width: 8.6rem;
+    height: auto;
+}
+
+.ig-hero-section-heading h2 {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: var(--font85);
+    line-height: 100px;
+    letter-spacing: -2px;
+    margin-top: 15px;
+}
+
+.ig-hero-section-desc {
+    font-weight: 400;
+    font-size: var(--font18);
+    line-height: 42px;
+    letter-spacing: 0px;
+    margin-top: 30px;
+}
+
+.ig-hero-section-search-container{
+    position: relative;
+}
+
+.ig-hero-section-search-container input {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #ffff;
+    margin-top: 50px;
+}
+
+.ig-hero-section-sponsored-container {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 28px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.ig-hero-section-search-container svg {
+    position: absolute;
+    bottom: 1.4rem;
+    right: 1rem;
+}
+
+.ig-hero-section-vdo-container {
+    position: relative;
+}
+
+.ig-bg-pattern img{
+    position: absolute;
+    right: -73px;
+    top: -35px;
+}
+
+.ig-bg-border {
+    border: 2px solid var(--heroSectionImgBorder);
+    height: 680px;
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    left: 30px;
+    border-radius: 5px;
+}
+
+.ig-bg-video img {
+    height: 680px;
+    z-index: 2;
+    position: relative;
+    border-radius: 5px;
+}

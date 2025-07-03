@@ -1,0 +1,24 @@
+.ig-header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 25px 0;
+    background: transparent;
+    z-index: 1;
+    position: relative;
+}
+
+.ig-header-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    color: var(--menuElementTxt);
+}
+
+.ig-header-free-txt {
+    background: var(--tryForFreeBg);
+    color: var(--tryForFreeTxt);
+    padding: .5rem 1rem;
+}

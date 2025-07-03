@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: DM Sans, sans-serif;
+}
+
+:root {
+  /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  color-scheme: light dark;
+  background: #F3F4F5;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 33px;
+  --font85: 85px;
+  --font72: 72px;
+  --font36: 36px;
+  --font48:48px;
+  --font18: 18px;
+  --font16: 16px;
+  --font14: 14px;
+  --font12: 12px;
+  --font10: 10px;
+  --heroSectionImgBorder: #FFDC6B;
+  --watchSectionColor: #343D48;
+  --menuElementTxt: #02073E;
+  --tryForFreeBg: #FCF2E8;
+  --tryForFreeTxt: #EF9E48;
+}
+
+.content-width {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.ig-hero-section-background-wrapper {
+  background: linear-gradient(106.43deg, #E0F5FA -1.4%, #FFFDE6 100.87%);
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
