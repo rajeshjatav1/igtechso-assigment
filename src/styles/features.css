@@ -60,16 +60,17 @@
     margin-top: 170px;
 }
 
-.ig-core-features-section{
+.ig-core-features-section {
     display: flex;
     gap: 75px;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .ig-core-feature-tiles {
     display: flex;
     gap: 45px;
+    background: linear-gradient(106.43deg, rgba(255, 253, 230, 0.35) -1.4%, rgba(255, 253, 230, 0.07) -1.39%, rgba(224, 239, 250, 0.35) 50%);
 }
 
 .ig-tile-one-container {
@@ -88,13 +89,14 @@
 .ig-tile {
     width: 300px;
     height: 320px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 10px;
     gap: 20px;
+    background: #ffff;
 }
 
 .ig-tile h3 {
@@ -113,16 +115,25 @@
     color: #0F2137;
 }
 
-.ig-core-feature-desc-container{
+.ig-core-feature-desc-container {
     width: 35%;
 }
 
-.ig-core-feature-desc-container .ig-feature-desc{
+.ig-core-feature-desc-container .ig-feature-desc {
     margin-top: 40px;
     font-size: var(--font18);
 }
 
-.ig-core-feature-desc-container .ig-header-free-txt{
+.ig-core-feature-desc-container .ig-header-free-txt {
     display: inline-block;
     margin-top: 30px;
+}
+
+.ig-feature2-container{
+    text-align:center;
+    margin-top:200px;
+}
+
+.ig-courses-list-container{
+    margin-top:50px;
 }

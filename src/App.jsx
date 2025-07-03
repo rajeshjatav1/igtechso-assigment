@@ -5,6 +5,7 @@ import "./styles/heroSection.css";
 import "./styles/features.css";
 import Features from "./components/Features";
 import CoreFeature from "./components/CoreFeature";
+import QualityFeature from "./components/QualityFeature";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <HeroSection />
         <Features />
         <CoreFeature />
+        <QualityFeature/>
     </>
   );
 }
