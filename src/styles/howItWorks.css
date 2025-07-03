@@ -1,0 +1,56 @@
+.ig-how-it-works-wrapper {
+    background: linear-gradient(180deg, #EBF9FF 0%, #F6F6FF 100%);
+    margin-top: 128px;
+    text-align: center;
+    padding: 66px 0;
+}
+
+.ig-how-it-works-items {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ig-how-it-works-items>:last-child{
+    padding-right: 0;
+}
+
+.ig-how-it-work-item {
+    width: 25%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: relative;
+    padding-right: 3rem;
+}
+
+.ig-how-it-work-item .ig-heading-txt{
+    margin-top: 10px;
+}
+
+.ig-how-it-work-item img {
+    position: absolute;
+    width: 10vw;
+}
+
+img.down-arrow {
+    right: 35px;
+}
+
+img.up-arrow {
+    right: 2rem;
+    top: 1.5rem;
+}
+
+h2.ig-step {
+    background: white;
+    display: flex;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 14px 20px 0px #4C77AB1A;
+}
