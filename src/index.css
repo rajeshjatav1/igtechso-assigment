@@ -10,7 +10,7 @@ body {
 :root {
   /* font-family: system-ui, Avenir, Helvetica, Arial, sans-serif; */
   color-scheme: light dark;
-  background: #F3F4F5;
+  background: white;
   color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
